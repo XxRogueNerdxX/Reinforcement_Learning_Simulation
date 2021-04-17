@@ -1,12 +1,14 @@
 # Reinforcement_Learning_Simulation
 Applying reinforcement learning techniques in real robotics simulation 
 
-Download the simulation_connect file and then save it along with the remoteApi file provided in Coppiella(Coppelia -> programming -> remoteApi_bindings -> lib)
+This is based on the works of https://arxiv.org/pdf/2002.04349.pdf this paper 
+but instead of using LIDAR, I tried using an array of ultrasonic sensors 
 
-Also save the sim.py and simCons.py file along with the remoteApi file. 
+A dueling deep neural network is used and is based on the PyTorch framework 
+the results are highly arbitary, still under hyperparameter tuning. 
+The reward system is based on the paper though they havn't fully explained 
+the academic approach in detail hence I have applied my own academic style 
+approach. 
 
-Then open the your simulation and then run the code. You can insert your required code after the "if" code. It would be marked accordinly 
-
-The code is writting simlare to the OpenAI gym file. It has a step function which would take a step funciton. After doing your task call the end function to end the simulation
-
-Good Luck
+I have also included models used in the simulation, you can donwload and 
+change the address in config file to work with them. 
